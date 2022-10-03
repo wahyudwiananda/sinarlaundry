@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <!-- My CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>SINAR Laundry | Admin</title>
+  </head>
+  <body>
+    <section class="jumbotron text-center">
+      <img src="img/logo.jpg" alt="logo" width="200" class="rounded-circle" />
+      <h1 class="display-4">SINAR Laundry</h1>
+      <p class="lead">Administrator</p>
+    </section>
+
+    <div class="container">
+      <div class="row text-center mb-3 mt-3">
+        <div class="col">
+          <h2>Form Pemasukan dan Pengeluaran</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Pilih...</option>
+                <option value="1">Pemasukan</option>
+                <option value="2">Pengeluaran</option>
+              </select>
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1">Rp</span>
+              <input type="text" class="form-control" aria-describedby="basic-addon1" />
+            </div>
+            <div class="mb-3">
+              <label for="Keterangan" class="form-label">Keterangan</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer text-center p-3 mt-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/wahyuananda_05/" target="_blank" class="fw-bold">Wahyu Dwi Ananda</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
